@@ -20,7 +20,8 @@ This repository contains word lists that were created from parallel simplificati
 * score_3: the resulting score of a pair, either the score the two editors agreed on or the third editor's score;
 * source_pos, target_pos: POS tags of the source and target words (NB! all grammar info retrieved with the help of the Stanza Syntagrus model);
 * source_lemma, target_lemma: source and target words' lemmas;
-* source_sentence, target_sentence: source and target sentences the way they are present in the RuAdapt dataset;
+* source_sentence, target_sentence: source and target sentences the way they are present in the RuAdapt dataset;  
+
 (listed below are columns only present in the "only good pairs" list)
 * source_cefr, target_cefr: source and target's CEFR grade levels, if the words are precent in the vocabulary lists;
 * source_ipm, target_ipm: source and target's IPM, taken from the [Modern Russian frequency dictionary](http://dict.ruslang.ru/freq.php);
